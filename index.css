@@ -1,39 +1,36 @@
 body {
   background-color: #232323;
-  font-family: "Roboto", sans-serif;
- 
 }
 
 header {
-  background-color: #1f1f1f;
-  width: 270px;
-  height: 90vh;
+  
+  width: 300px;
   text-align: center;
-  padding: 10px 0;
   color: rgba(236, 236, 236, 0.59);
   position: fixed;
   overflow-y: auto;
-  margin: 30px 4px 30px 10px;
-  padding: 0 15px;
-  border-radius: 30px;
-  border: 1px solid color-mix(in srgb, #ffff, transparent 80%);
+  }
 
-}
+  
+  
 
 nav {
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, #FFFFFF, transparent 80%);
+  font-size: 16px;
   text-align: left;
   margin-top: 2rem;
-   font-family:'Ubuntu', sans-serif;
-   font-size: 16px;
+  font-size: 16px;
 }
 
-nav ul {
-  padding-block: 10px 20px;
-}
+
 
 nav ul li {
   margin-bottom: 2rem;
   list-style: none;
+  
 }
 
 nav ul li a {
@@ -52,18 +49,14 @@ nav ul li a :focus {
 
 nav ul li i {
   font-size: 26px;
-  font-style: italic;
   margin-right: 10px;
 }
 
-.container-social-media {
-  height: auto;
+.container-social-media { 
   display: flex;
   justify-content: space-around;
   font-size: 16px;
   color: #ffff;
-
-
 }
 
 .container-media  {
