@@ -237,7 +237,7 @@ main {
 }
 .profile-background{
   position: absolute;
-  top: 104Gpx;
+  top: 104px;
   left: 889px;
   width: 30%;
   height: 59%;
@@ -313,3 +313,322 @@ main {
  .icon-v.toggle-dropdown{
   color: #311313;
 }
+
+.about-section{
+  height: auto;
+}
+
+.about-principal{
+  display: flex;
+   display: flex;
+  color: #FFFFFF;
+  align-content: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.formulaire{
+  height: 80vh;
+  width: 40%;
+  border-top: 4px solid #fff;
+  text-align: center;
+  background-color: #1f1f1f;
+  border-radius:2rem;
+  padding: 2.5rem;
+
+  margin: 0 50px;
+
+}
+
+.formulaire img{
+  height: 160px;
+  width: 160px;
+  margin:10px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.profile-badge{
+  position: absolute;
+  top: 825px;
+  right: 740px;
+  height: 20px;
+  width: 20px;
+  background-color: #ececec;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #232323;
+}
+
+.profile-badge i {
+  color: #311313;
+  font-size: 14px;
+}
+
+.formulaire h3{
+  font-size: 1.3rem;
+  font-family: 'Ubuntu',sans-serif;
+}
+
+.profession{
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  font-family: 'Roboto',sans-serif;
+}
+
+.contact-links .contact-item{ 
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  margin: 20px;
+  background-color:  color-mix(in srgb,#232323,#1f1f1f);
+  border-radius: 0.75rem;
+  border: 1px solid
+ color-mix(in srgb,#fff, transparent 90%);
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+
+}
+
+.contact-links .contact-item:hover{
+  background-color: #fff;
+  color: #311313;
+}
+
+
+
+
+
+
+
+.about-text{
+  height: auto;
+  width: 60%;
+  margin: 0 0 50px 0;
+}
+
+.about-text .section-header .badge-text{
+  background-color: #fff;
+  display: inline-block;
+  color: #232323;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto',sans-serif;
+}
+
+.about-text .section-header h2{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 32px;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.description{
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  
+} 
+
+.description p {
+  font-size: 17.6px;
+  align-items: 1.20; 
+  margin: 24px;
+}
+
+.chiffre{
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 24PX;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  background-color: #2c2c2c;
+  border-radius: 20px;
+}
+
+
+.stat-number{
+  font-family: 'Roboto',sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stat-label{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+}
+
+.details-grid{
+  display: flex;
+  gap: 50px;
+}
+
+.detail-item span{
+  display: block;
+}
+
+.detail-item .detail-label{
+  display: block;
+  font-size: 14px;
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+
+}
+
+
+.details-grid .detail-item .detail-value {
+   display: block;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.cta-section {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  font-family: 'Roboto',sans-serif;
+}
+.cta-section .btn.btn-primary{
+  background-color: #fff;
+  color: #311313;
+}
+
+.cta-section .btn{
+  padding: 14px 32px ;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid transparent;
+  transition: all 0,3s;
+}
+
+
+.cta-section .btn.btn-outline{
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+ 
+}
+
+.cta-section .btn{
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-color: 2px solid transparent;
+  transition: all 0,3s;
+  
+}
+
+.bigdiv-icon{ align-items: center;
+  width: 90%;
+  background-color: #2c2c2c;
+  padding: 30px 50px;
+  padding: 40px;
+  height: auto;
+  display: flex;
+  justify-content: center !important;
+  margin-right: 2rem;
+ margin-left: 1.5rem;
+ gap: 20px;
+}
+
+.petitdiv-icon{ 
+  background-color:  color-mix(in srgb, #968a8a, transparent 85%);
+  border-radius: 15px;
+  padding: 30px 10px;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  width: 30%;
+}
+
+.icon-wrapper{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+ 
+}
+
+.icon1{
+  background-color:  color-mix(in srgb, #ececec, transparent 85%);
+}
+
+.icon2{
+  background-color:  color-mix(in srgb, #ff7e00, transparent 85%);
+}
+
+.icon-wrapper .bi-journal-richtext {
+  color: color-mix(in srgb, #ff7e00, transparent 10%);;
+}
+
+.icon3{
+  background-color:  color-mix(in srgb, #00c875, transparent 85%);
+}
+.icon-wrapper .bi-headset{
+  color:  color-mix(in srgb, #00c875, transparent 10%);
+}
+
+.icon4{
+   background-color:color-mix(in srgb, #bb0d5e, transparent 85%);
+}
+
+.icon-wrapper .bi-people{
+  color:color-mix(in srgb, #fc0377, transparent 85%); ;
+}
+
+
+
+ .icon-wrapper i {
+    font-size: 32px;
+    color: #ececec;
+ }
+
+ .purecounter{
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu',sans-serif;
+}
+
+.icon-wrapper p{
+font-size: 18px;
+font-weight: 500;
+font-family: 'Ubuntu',sans-serif;
+}
+
+
+
+
+
