@@ -804,8 +804,11 @@ font-family: 'Ubuntu',sans-serif;
 
 .contact-info li {
   display: flex;
-  color: #ececec;  
-  gap: 1px;
+  color: #ececec;
+  font-family: 'Roboto',sans-serif; 
+  font-size: 16px; 
+  gap: 20px;
+  margin: 0 0 10PX 0;
 }
 .skill-item{
   color: #ececec;
