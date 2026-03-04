@@ -988,7 +988,7 @@ font-family: 'Ubuntu',sans-serif;
   font-family:'Ubuntu',sans-serif;
   font-size: 32px;
   color: #ececec;
-  padding: 0 0 0 50px;
+  
 }
 
 .section-services .sous-titre{
@@ -1014,13 +1014,11 @@ font-family: 'Ubuntu',sans-serif;
 .service-intro {
   height: auto;
   width: 100%;
-   border:2px solid rgb(30, 12, 107);
    margin: 0 0 0 30px;
 
 }
 
 .service-resume{
-   border:2px solid rgb(255, 102, 0);
    height: auto;
    width: 60%;
    padding: 0 1.5rem 0 1.5rem;
