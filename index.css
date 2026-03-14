@@ -952,7 +952,7 @@ font-family: 'Ubuntu',sans-serif;
   padding: 8px 16px;
   border: 1px solid color-mix(in srgb, #ececec, transparent 80%);
   border-left-width: 3px;
-  background-color:  #696565;
+  background-color: #696565;
 
 }
 
@@ -960,7 +960,7 @@ font-family: 'Ubuntu',sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20PX;
-  width: 70%; 
+  width: 70%;
   margin: 30px 0 0 0;
 }
 
@@ -973,139 +973,8 @@ font-family: 'Ubuntu',sans-serif;
   border-radius: 12px;
 }
 
-.section-services{
-  color: #ececec;
-  height:auto;
-}
-
-.section-services h2 {
-  text-align: center;
-   font-family:'Ubuntu',sans-serif;
-  font-size: 32px;
-  color: #ececec;
-}
-.section-services h2 div{
-  font-family:'Ubuntu',sans-serif;
-  font-size: 32px;
-  color: #ececec;
-  
-}
-
-.section-services .sous-titre{
-  font-family:'Roboto',sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: #ececec;
-
-}
-
-.section-services .service-heading{
-  font-family:'Ubuntu',sans-serif;
-  font-size: 30px;
-  color: #ececec;
-}
-
-.div-un-services {
-  display: flex;
-  height: auto;
-  gap: 50px;
-}
-
-.service-intro {
-  height: auto;
-  width: 100%;
-   margin: 0 0 0 30px;
-
-}
-
-.service-resume{
-   height: auto;
-   width: 60%;
-   padding: 0 1.5rem 0 1.5rem;
-   text-align: left;
-}
 
 
-.service-resume{
-  font-family: 'Roboto',sans-serif;
-  font-size: 16px;
-  margin: 0 0 50px 0;
-}
-
-.service-btn{
-  align-items: center;
-  padding: 12px 30px;
-  background-color:white;
-  color: #310606;
-  border-radius: 4px;
-  font-weight: 500;
-  font-family: 'Roboto'sans-serif;
-  margin: 20px 0 0 0;
-}
-
-.div-deux{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr; 
-   padding: 50px 0 0 0;
-   margin: 0 0 0 30px;
-   gap: 20px;
-}
-
-.service-card{
-  border: 2px solid
- color-mix(in srgb, #fff, transparent 90%);
-padding: 150px 25px 25px;
-text-decoration: none;
-}
-
-
-.service-icon{
-  background-color: 
- color-mix(in srgb, #ececec, transparent 90%);
- display: inline-flex;
- align-items: center;
- justify-content: center;
- border-radius: 10px;
- height:64px px;
- width: 64px;
-}
-
- .l1{
-  position:absolute ;
-  top: 5220px;
-  
-}
-
-.l2{
-  position: absolute;
-  top: 5675px;
-}
-
-
-.service-icon i{
-  font-size: 52px;
-  color: #ececec;
-}
-
-.service-card h3{
-  margin-bottom: 15px;
-  font-family: 'Ubuntu',sans-serif;
-  color: #ececec;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.service-card h3 span{
-  display: block;
-}
-
-.service-card p{
-  font-family: 'Roboto',sans-serif;
-  font-family: 16px;
-  padding:0 0 30px 0 ;
-}
 
 
 
